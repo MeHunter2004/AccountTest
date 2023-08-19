@@ -16,6 +16,15 @@ public class Account {
         }
     }
 
+    public void withdraw (double m) {
+        if (m <= balance) {
+            balance -= m;
+            System.out.println(getBalance());
+        } else {
+            System.out.println("You have not enough balance!");
+        }
+    }
+
     public double getBalance() {
         return balance;
     }

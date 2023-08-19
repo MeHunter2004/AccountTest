@@ -38,6 +38,8 @@ public class Main {
                 System.out.println("number is not valid!");
                 break;
         }
+        account1.withdraw(800.74);
+        account2.withdraw(100);
 
 
 
